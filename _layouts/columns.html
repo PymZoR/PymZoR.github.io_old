@@ -1,0 +1,18 @@
+---
+layout: center
+---
+                <section class="container">
+                    <div class="post">
+                        <header class="post-header">
+                            <h1>{{ page.title }}</h1>
+                        </header>
+                        <div wclass="sm-col sm-col-4 md-col-3 sm-show">
+                            <img id="columnPhoto" class="left" src="{{ site.baseurl }}/images/{{ page.photo }}" alt="{{ page.photo }}">
+                        </div>
+                        <div class="sm-col sm-col-8 md-col-9">
+                            <article class="post-content">
+{{ content }}
+                            </article>
+                        </div>
+                    </div>
+                </section>

@@ -1,0 +1,10 @@
+/* Basscss Base Buttons */
+
+button,
+.button {
+  font-family: $button-font-family;
+  font-size: $button-font-size;
+  font-weight: $button-font-weight;
+  line-height: $button-line-height;
+  padding: $button-padding-y $button-padding-x;
+}

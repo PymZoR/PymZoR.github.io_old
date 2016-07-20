@@ -1,0 +1,36 @@
+# Settings
+title:       "Axel's Blog"
+email:       'axel@mousset.me'
+author:      'Axel Mousset'
+description: 'Blog about software development, embedded systems and robotics.'
+baseurl:     ''
+url:         'http://localhost:4000/'
+date_format: '%b %-d, %Y'
+
+# Google services
+google_analytics: UA-71580157-1
+
+
+# Disqus post comments
+disqus_shortname: moussetblog
+
+# Social icons
+github_username: PymZoR
+twitter_username: PymZoR
+linkedin_username: axel-mousset-74658887
+
+# Build settings
+gems:
+    - jekyll-paginate
+markdown: redcarpet
+redcarpet:
+    extensions:
+        - smart
+        - tables
+        - with_toc_data
+permalink: pretty
+paginate: 4
+sass:
+    compressed: true
+include:
+    - _pages

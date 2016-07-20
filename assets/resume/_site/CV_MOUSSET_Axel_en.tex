@@ -1,0 +1,95 @@
+\documentclass[11pt, a4paper, sans]{moderncv}
+
+\usepackage{textcomp}
+\usepackage{fontawesome}
+\usepackage[scale=0.85]{geometry}
+
+\moderncvstyle{classic}
+\moderncvcolor{burgundy}
+\nopagenumbers{}
+
+\setlength{\hintscolumnwidth}{3cm}
+\AtBeginDocument{\recomputelengths}
+
+% source: http://tex.stackexchange.com/questions/195100/spaces-between-sections-and-subsections-on-moderncv
+% Increase the vertical spacing between the sections
+\makeatletter
+\RenewDocumentCommand{\section}{sm}{%
+    \par\addvspace{0.6cm}%
+    \phantomsection{}% reset the anchor for hyperrefs
+    \addcontentsline{toc}{section}{#2}%
+    \parbox[t]{\hintscolumnwidth}{\strut\raggedleft\raisebox{\baseletterheight}{\color{color1}\rule{\hintscolumnwidth}{0.95ex}}}%
+    \hspace{\separatorcolumnwidth}%
+    \parbox[t]{\maincolumnwidth}{\strut\sectionstyle{#2}}%
+    \par\nobreak\addvspace{1ex}\@afterheading}% to avoid a pagebreak after the heading
+\makeatother
+
+
+
+
+\name{Axel}{Mousset}
+\title{Computer engineering student}
+\address{4 rue Jean-Louis Delaporte}{10000 Troyes}{France}
+\phone[mobile]{06.46.73.95.77}
+\email{axel@mousset.me}
+\homepage{http://blog.mousset.me}
+
+
+\begin{document}
+    \makecvtitle
+
+    \section{Education}
+        \cventry{2013 - present}{Computer engineering}{University of technology of Troyes (UTT)}{}{France}{}
+        \cventry{2013}{French high school degree}{\textnormal{Obtained with honors}}{\textit{Paris}}{}{}
+
+    \section{Work experience}
+            \cventry{2013 - present}{Club Robotik UTT}{Vice-president}{}{Student robotics club}{
+                \begin{itemize}
+                  \item \href{https://github.com/RobotikUTT}{\faGithub \ Two participations at french robotics cup}
+                      \begin{itemize}
+                          \item Low-level development with C++ on Arduino
+                          \item High-level development with Node.js on Beaglebone black
+                          \item CAN bus communication
+                          \item Motion control: PID controller, dead-reckoning
+                      \end{itemize}
+                \end{itemize}}
+
+            \cventry{2013 - 2014}{UTT Net Group}{Active member}{}{Student computer science club}{
+                \begin{itemize}
+                  \item \href{https://github.com/buckutt}{\faGithub \ Developement of BuckUTT}
+                    \begin{itemize}
+                      \item Electronic payment system for students (80k\texteuro \ / year)
+                      \item Node.js, AngularJS, MySQL
+                    \end{itemize}
+                \end{itemize}}
+
+            \cventry{Summer 2013}{Front-end developer}{Ligne bleue cyber}{Paris}{}{
+                \begin{itemize}
+                    \item MySQL Database migration
+                    \item Developement of a website sketch for the Paris International Agricultural Show
+                    \item System administration
+                    \newline
+                \end{itemize}}
+
+
+
+    \section {Technical skills}
+        \cvitem{\textbf{Databases}}{MySQL, MariaDB, MongoDB, RethinkDB}
+        \cvitem{\textbf{Languages}}{C, C++, Javascript (Node.js), Python, Haxe, Java}
+        \cvitem{\textbf{Platforms}}{ODROID, Raspbery Pi, Beaglebone, Arduino}
+        \cvitem{\textbf{Microcontrollers}}{ATmega, msp430}
+        \cvitem{\textbf{Embedded}}{Communication bus, VLSI design}
+        \cvitem{\textbf{Automatic}}{Control engineering, sensor fusion}
+
+    \section{Langues}
+        \cvitem{French}{Native}
+        \cvitem{English}{Good (\small{\textit{BULATS 89/100}})}
+        \cvitem{Espagnol}{Basics}
+
+    \section{Interests}
+        \cvitem{Sports}{Swimming, sailing, foosball}
+        \cvitem{Hobbies}{Robotics, electronics, literature}
+
+\end{document}
+
+
