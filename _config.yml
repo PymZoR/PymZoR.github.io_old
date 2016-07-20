@@ -22,12 +22,7 @@ linkedin_username: axel-mousset-74658887
 # Build settings
 gems:
     - jekyll-paginate
-markdown: redcarpet
-redcarpet:
-    extensions:
-        - smart
-        - tables
-        - with_toc_data
+markdown: kramdown
 permalink: pretty
 paginate: 4
 sass:
