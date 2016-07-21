@@ -5,7 +5,7 @@ permalink: /about/
 photo: photo.jpg
 ---
 
-My name is Axel Mousset. I'm passionated in everything that revolves around computers, from electronics to programming including robotics.  
+My name is Axel Mousset. I'm passionated in everything that revolves around computers, from electronics to programming and particularly robotics.  
 
 I currently study computer engineering at the University of Technology of Troyes (France). I'm looking for an internship.
 
