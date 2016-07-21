@@ -4,9 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-Here are some of my projects:
-
-I am Axel Mousset, a student in software engineering at the University of Technology of Troyes (France).  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend, lorem quis interdum aliquam, diam elit dictum mi, quis egestas ex nisi eget massa. Pellentesque id lectus erat. Donec nulla est, cursus nec ante nec, iaculis suscipit dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse convallis neque condimentum eros congue suscipit. Aenean tempus ipsum at porttitor consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia ante in risus pharetra, eget pulvinar ex ultrices. Nam eu sapien elit. Duis ligula orci, elementum sed tempus at, commodo vitae metus. Etiam eget ipsum ac enim pharetra lacinia eu id lacus.
 
 Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eu elit magna. Praesent auctor malesuada enim, eu dictum odio. Quisque vitae ligula ac purus tincidunt viverra sed at sapien. In vel nisl massa. Sed ultricies nibh eget magna rutrum posuere in sit amet nunc. Vestibulum eget egestas massa, sed blandit magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
