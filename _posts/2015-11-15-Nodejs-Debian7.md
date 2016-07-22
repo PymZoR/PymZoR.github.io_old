@@ -20,11 +20,11 @@ Installing a recent Node.js version can be done either by building from source, 
 
 Building from source take some times, as it requires to install dependencies (such as gcc). The benefits are that your package manager is aware of your installation, and the dependencies required for native bindings are already set up.  
 
-If you're not concerned about directly installing binaries (without your package manager), and not interested in native bindings, go for the [direct install](#install-from-pre-compiled-binaries).
-Otherwise, [build Node.js from source](#compile-node-from-source).
+If you're not concerned about directly installing binaries (without your package manager), and not interested in native bindings, go for the [direct install](#direct-install).
+Otherwise, [build Node.js from source](#building-nodejs-from-source).
 
 
-# Install compiled binaries
+# Direct install
 Nothing fancy here, just download the binaries and put them in the right folders.
 
 ```bash
@@ -39,6 +39,7 @@ $ mkdir -p /usr/local/man/man1 && cp ./share/man/man1/node.1 /usr/local/man/man1
 ```
 
 # Building Node.js from source
+
 ## Dependencies: gcc/g++ 4.8
 Both gcc and g++ 4.8 are present in the Debian 8 "Jessie" respositories. Let's change Wheezy respositories into Jessie's for the installation.
 
