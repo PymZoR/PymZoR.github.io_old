@@ -6,22 +6,25 @@ category:
     - Node.js
     - Embedded
     - IoT
+    - Beaglebone
 date:       2015-11-15 23:00:00
+
+---
+I just received my Beaglebone Black, installed with Debian 7.9 "Wheezy".
+This is a quick guide on how to set up most recent Node.js versions and gcc/g++ 4.8 for native bindings.
+
 ---
 
-I just received my Beaglebone Black, installed with Debian 7.9 "Wheezy".  
-Here is a quick guide on how to set up node >= 4.x and gcc/g++ 4.8 for native bindings.
-
 Unfortunately, Debian Wheezy provides only outdated versions of Node.js (0.12) and gcc/g++ (4.6).
-In order to install the last version of Node.js, you have to either compile it from source or install the binaries.  
+Installing a recent Node.js version can be done either by building from source, or by retreiving the binaries.
 
-Compile from source take some times, as it requires to install dependencies (such as gcc). The benefits are that your package manager is aware of your installation, and the dependencies required for native bindings are already set up.  
+Building from source take some times, as it requires to install dependencies (such as gcc). The benefits are that your package manager is aware of your installation, and the dependencies required for native bindings are already set up.  
 
-If you're not concerned by directly installed binaries (without package manager), and not interested in native bindings, go for the [direct install](#install-from-pre-compiled-binaries).
-Otherwise, [compile Node.js](#compile-node-from-source).
+If you're not concerned about directly installing binaries (without your package manager), and not interested in native bindings, go for the [direct install](#install-from-pre-compiled-binaries).
+Otherwise, [build Node.js from source](#compile-node-from-source).
 
 
-# Install from pre-compiled binaries
+# Install compiled binaries
 Nothing fancy here, just download the binaries and put them in the right folders.
 
 ```bash
@@ -35,8 +38,7 @@ $ cp -r ./include/node /usr/local/include
 $ mkdir -p /usr/local/man/man1 && cp ./share/man/man1/node.1 /usr/local/man/man1/node.1
 ```
 
-# Compile node from source
-
+# Building Node.js from source
 ## Dependencies: gcc/g++ 4.8
 Both gcc and g++ 4.8 are present in the Debian 8 "Jessie" respositories. Let's change Wheezy respositories into Jessie's for the installation.
 
