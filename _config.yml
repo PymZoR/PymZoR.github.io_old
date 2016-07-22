@@ -23,6 +23,7 @@ linkedin_username: axel-mousset-74658887
 gems:
     - jekyll-paginate
 markdown: kramdown
+highlighter: rouge
 permalink: pretty
 paginate: 4
 sass:
