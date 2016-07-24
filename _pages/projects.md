@@ -1,15 +1,42 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
+permalink: projects/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend, lorem quis interdum aliquam, diam elit dictum mi, quis egestas ex nisi eget massa. Pellentesque id lectus erat. Donec nulla est, cursus nec ante nec, iaculis suscipit dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse convallis neque condimentum eros congue suscipit. Aenean tempus ipsum at porttitor consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia ante in risus pharetra, eget pulvinar ex ultrices. Nam eu sapien elit. Duis ligula orci, elementum sed tempus at, commodo vitae metus. Etiam eget ipsum ac enim pharetra lacinia eu id lacus.
+### Robotics
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eu elit magna. Praesent auctor malesuada enim, eu dictum odio. Quisque vitae ligula ac purus tincidunt viverra sed at sapien. In vel nisl massa. Sed ultricies nibh eget magna rutrum posuere in sit amet nunc. Vestibulum eget egestas massa, sed blandit magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+* Brushless motor driver PCB, using ST L6235 (KiCAD) - [github](https://github.com/PymZoR/L6235-PCB)
+* UTT Robotics Club's 2015 robot Core program (Node.js) - [github](https://github.com/RobotikUTT/eurobot-core)
+* Motion control module for differential robot (ATmega328p / C++) - [github](https://github.com/RobotikUTT/eurobot-motorController)
 
-Mauris ut felis vitae augue mollis ultrices malesuada quis velit. In vestibulum ipsum mollis leo finibus cursus. Curabitur egestas risus eu nunc laoreet egestas. In nec aliquam sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus eleifend nibh sit amet justo porttitor, non venenatis justo congue. Etiam ac sem sed dui ultricies ultricies non ut magna. Mauris a mi quis elit aliquam tempor. Aliquam ac urna ut quam ornare rutrum. Curabitur quis lorem efficitur, ultricies sem eget, euismod metus.
 
-Pellentesque at orci ac enim viverra interdum eu sit amet quam. Etiam id orci porttitor, efficitur risus quis, gravida magna. Mauris eget ante a tellus tempus auctor. Vivamus ipsum mauris, vehicula non rutrum sed, pretium finibus sapien. Proin ac elit eu metus ultricies euismod ac eu magna. Quisque in lectus metus. Suspendisse consectetur, quam id commodo auctor, quam dolor laoreet orci, at finibus lorem augue ac lectus. Pellentesque vestibulum maximus blandit.
+### Web
 
-Cras vitae dignissim nisl, sed convallis lorem. Maecenas ut dolor magna. Nunc nisl arcu, rhoncus ut facilisis vitae, euismod id ipsum. Integer sit amet facilisis nibh, vitae bibendum est. Curabitur et ex in odio scelerisque blandit non eget enim. Pellentesque iaculis diam vel facilisis feugiat. Mauris nisl eros, varius ullamcorper lectus tincidunt, semper ornare dolor. In eros velit, efficitur iaculis lectus vel, mollis faucibus magna. In rutrum ipsum et hendrerit pellentesque.
+* Buckless, cashless NFC solution (Node.js / RethinkDB / Vue.js) -  [github](https://github.com/buckless)
+* UTT Robotics Club's website - [website](http://robotikutt.github.io/),  [github](https://github.com/RobotikUTT/RobotikUTT.github.io)
+
+
+## Softwares
+
+* Card game "Menhir" implementation (Java / Swing) - [github](https://github.com/PymZoR/UTT-LO02-Menhir)
+* Matrix calculator with homemade lexical analysis (C++ / Qt) - [github](https://github.com/PymZoR/utt-nf05-project)
+* CLI vCard manager, with homemade parser (Node.js) -  [github](https://github.com/PymZoR/UTT-GL02)
+
+
+### Papers and talks
+
+* Research paper on API documentations (french) -  [github](https://github.com/PymZoR/UTT-TX-Buckless/blob/master/report.pdf)
+* Presentation of UTT Robotics Club's 2015 robot (french) -  [github](https://github.com/PymZoR/UTT-TITS/blob/master/rapport/doc.pdf)
+* Student talk : Introduction to lucid dreaming (french) - [slides](/assets/Barcamp_reve_lucide.pdf), [video](https://youtu.be/KqpeM59BLB8?t=412)
+
+---
+
+
+### Work in progress
+
+* High performance web Gameboy Color emulator (C++, emscripten) - [github](https://github.com/PymZoR/gbcEmulator)
+* Promise based library accessing system GPIO (Node.js) - [github](https://github.com/PymZoR/node-gpio)
+* CLI serial monitor (Node.js) - [github](https://github.com/PymZoR/serialmonitor)
+* UTT Beer degustation Club's website - [website](http://ClubBieres-UTT.github.io/),  [github](https://github.com/ClubBieres-UTT/ClubBieres-UTT.github.io)
+* UTT Secret Santa - [github](https://github.com/PymZoR/secret-santa)

@@ -4,7 +4,7 @@ email:       'axel@mousset.me'
 author:      'Axel Mousset'
 description: 'Blog about software development, embedded systems and robotics.'
 baseurl:     ''
-url:         'http://blog.mousset.me/'
+url:         'http://blog.mousset.me'
 date_format: '%b %-d, %Y'
 
 # Google services
