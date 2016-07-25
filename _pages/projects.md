@@ -17,7 +17,7 @@ permalink: projects/
 * UTT Robotics Club's website - [website](http://robotikutt.github.io/),  [github](https://github.com/RobotikUTT/RobotikUTT.github.io)
 
 
-## Softwares
+### Softwares
 
 * Card game "Menhir" implementation (Java / Swing) - [github](https://github.com/PymZoR/UTT-LO02-Menhir)
 * Matrix calculator with homemade lexical analysis (C++ / Qt) - [github](https://github.com/PymZoR/utt-nf05-project)
