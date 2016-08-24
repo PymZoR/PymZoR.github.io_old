@@ -26,9 +26,9 @@ permalink: projects/
 
 ### Papers and talks
 
-* Research paper on API documentations (french) -  [github](https://github.com/PymZoR/UTT-TX-Buckless/blob/master/report.pdf)
-* Presentation of UTT Robotics Club's 2015 robot (french) -  [github](https://github.com/PymZoR/UTT-TITS/blob/master/rapport/doc.pdf)
-* Student talk : Introduction to lucid dreaming (french) - [slides](/assets/Barcamp_reve_lucide.pdf), [video](https://youtu.be/KqpeM59BLB8?t=412)
+* Research paper on API documentations (french) -  [pdf](https://github.com/PymZoR/UTT-TX-Buckless/blob/master/report.pdf)
+* Presentation of UTT Robotics Club's 2015 robot (french) -  [pdf](https://github.com/PymZoR/UTT-TITS/blob/master/rapport/doc.pdf)
+* Student talk : Introduction to lucid dreaming (french) - [pdf](/assets/Barcamp_reve_lucide.pdf), [video](https://youtu.be/KqpeM59BLB8?t=412)
 
 ---
 
@@ -39,4 +39,3 @@ permalink: projects/
 * Promise based library accessing system GPIO (Node.js) - [github](https://github.com/PymZoR/node-gpio)
 * CLI serial monitor (Node.js) - [github](https://github.com/PymZoR/serialmonitor)
 * UTT Beer degustation Club's website - [website](http://ClubBieres-UTT.github.io/),  [github](https://github.com/ClubBieres-UTT/ClubBieres-UTT.github.io)
-* UTT Secret Santa - [github](https://github.com/PymZoR/secret-santa)
